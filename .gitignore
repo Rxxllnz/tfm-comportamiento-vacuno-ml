@@ -1,24 +1,24 @@
 # ============================================================
-# DATOS DEL PROYECTO
-# No publicar datos originales o procesados sin autorización
+# DATOS PRIVADOS
+# Ignorar el contenido, pero conservar carpetas y documentación
 # ============================================================
 
-/datos/
-/Datos/
-/data/
-/datasets/
-/datos_originales/
-/datos_procesados/
-/input/
-/inputs/
-/Procesados/
-/documentos/
+datos/**
+Procesados/**
+documentos/**
 
-# Permitir documentación o estructura vacía dentro de datos
-!datos/README.md
-!datos/.gitkeep
-!data/README.md
-!data/.gitkeep
+# Permitir los directorios
+!datos/**/
+!Procesados/**/
+!documentos/**/
+
+# Permitir archivos utilizados para conservar/documentar la estructura
+!datos/**/.gitkeep
+!datos/**/README.md
+!Procesados/**/.gitkeep
+!Procesados/**/README.md
+!documentos/**/.gitkeep
+!documentos/**/README.md
 
 
 # ============================================================
