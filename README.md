@@ -69,9 +69,9 @@ Los siguientes elementos se conservan como registro de la evolución del trabajo
 - `experimentos/exploracion_inicial.ipynb`
 - `experimentos/semana2_eda_pca.ipynb`
 - `experimentos/comparacion_sistemas.ipynb`
-- `resultados/hallazgos_semana2.md`
-- `resultados/comparacion/`
-- `resultados/eda/`
+- `resultados/legacy/hallazgos_semana2.md`
+- `resultados/legacy/comparacion/`
+- `resultados/legacy/eda/`
 - `datos/procesados/features/master_features.csv` y los CSV individuales anteriores a las ramas
 - `resultados/master_features_report.json`
 
@@ -201,15 +201,6 @@ Se recomienda Python 3.10 o posterior. En PowerShell, desde la raíz del reposit
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
-En Linux o macOS:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
