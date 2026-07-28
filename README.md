@@ -39,9 +39,10 @@ datos/
   entrada/valdillera/               Actividad y eventos originales de Valdillera
   procesados/                       Intermedios, diarios generados y features
 
-documentos/                         Artículos de referencia y borrador LaTeX
-experimentos/                        Notebooks de la fase exploratoria
-resultados/                          Informes, tablas, JSON y figuras
+Procesados/                         Copias limpias de los ficheros originales de Celso y Ruibal
+documentos/                         Artículos de referencia.
+experimentos/                       Notebooks de la fase exploratoria
+resultados/                         Informes, tablas, JSON y figuras
 requirements.txt                    Dependencias Python
 .gitignore                          Exclusiones para control de versiones
 ```
