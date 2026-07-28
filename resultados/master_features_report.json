@@ -1,0 +1,48 @@
+{
+  "feature_files": [
+    {
+      "file": "celso_diario_weekly_features.csv",
+      "rows": 562,
+      "columns": 67,
+      "dataset": "celso_diario",
+      "system": "intensivo"
+    },
+    {
+      "file": "celso_horario_weekly_features.csv",
+      "rows": 4560,
+      "columns": 67,
+      "dataset": "celso_horario",
+      "system": "intensivo"
+    },
+    {
+      "file": "ruibal_horario_weekly_features.csv",
+      "rows": 2842,
+      "columns": 67,
+      "dataset": "ruibal_horario",
+      "system": "intensivo"
+    },
+    {
+      "file": "valdillera_weekly_features.csv",
+      "rows": 310,
+      "columns": 65,
+      "dataset": "valdillera",
+      "system": "extensivo"
+    }
+  ],
+  "rows": 8274,
+  "columns": 67,
+  "datasets": [
+    "celso_diario",
+    "celso_horario",
+    "ruibal_horario",
+    "valdillera"
+  ],
+  "systems": [
+    "extensivo",
+    "intensivo"
+  ],
+  "cow_count": 263,
+  "window_start_min": "2023-07-03 00:00:00",
+  "window_start_max": "2025-12-29 00:00:00",
+  "missing_values": 838
+}

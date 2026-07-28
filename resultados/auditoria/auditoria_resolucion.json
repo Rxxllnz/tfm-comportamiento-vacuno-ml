@@ -1,0 +1,91 @@
+{
+  "celso_diario": {
+    "path": "Procesados/Celso novo/05_original_variables.csv",
+    "rows": 3755,
+    "cow_count": 16,
+    "classification": "diario",
+    "median_registros_por_vaca_dia": 1.0,
+    "mean_suma_5_variables": 1414.62396804261,
+    "median_suma_5_variables": 1419.0000000000002,
+    "frecuencia_inferida": "daily"
+  },
+  "celso_horario": {
+    "path": "Procesados/Celso novo/04_Vacas_etiquetadas_horario.xlsx",
+    "rows": 720131,
+    "cow_count": 108,
+    "classification": "horario",
+    "median_registros_por_vaca_dia": 24.0,
+    "mean_suma_5_variables": 1412.3140476587234,
+    "median_suma_5_variables": 1417.0000000000002,
+    "frecuencia_inferida": "hourly"
+  },
+  "ruibal_horario": {
+    "path": "Procesados/Ruibal Riomayor/05_Datos_horarios_etiquetados_celo.csv",
+    "rows": 454296,
+    "cow_count": 93,
+    "classification": "horario",
+    "median_registros_por_vaca_dia": 24.0,
+    "mean_suma_5_variables": 1415.9052247873633,
+    "median_suma_5_variables": 1419.0,
+    "frecuencia_inferida": "hourly"
+  },
+  "valdillera_bruto": {
+    "path": "datos/entrada/valdillera/00zz_Datos_valdillera_bruto_media_horario_2025-01-01_2026-01-01_20260701.csv",
+    "rows": 1674,
+    "cow_count": 62,
+    "classification": "diario_escala_horaria",
+    "median_registros_por_vaca_dia": 1.0,
+    "mean_suma_5_variables": 59.47297850994088,
+    "median_suma_5_variables": 59.541666666666664,
+    "frecuencia_inferida": "daily"
+  },
+  "verificacion_celso": {
+    "n_dias_comparados": 3755,
+    "n_dias_solo_en_diario": 0,
+    "n_dias_solo_en_horario_agregado": 26250,
+    "comparacion_por_variable": [
+      {
+        "variable": "Ruminate",
+        "diferencia_media": 1.4350881778973634e-14,
+        "diferencia_maxima": 1.1368683772161603e-13,
+        "diferencia_mediana": 0.0,
+        "n_dias_comparados": 3755
+      },
+      {
+        "variable": "Eat",
+        "diferencia_media": 2.411493109061709e-14,
+        "diferencia_maxima": 1.1368683772161603e-13,
+        "diferencia_mediana": 0.0,
+        "n_dias_comparados": 3755
+      },
+      {
+        "variable": "Graze",
+        "diferencia_media": 1.8508851796977905e-14,
+        "diferencia_maxima": 1.1368683772161603e-13,
+        "diferencia_mediana": 7.105427357601002e-15,
+        "n_dias_comparados": 3755
+      },
+      {
+        "variable": "Rest",
+        "diferencia_media": 2.4864265107557167e-14,
+        "diferencia_maxima": 1.1368683772161603e-13,
+        "diferencia_mediana": 0.0,
+        "n_dias_comparados": 3755
+      },
+      {
+        "variable": "Walk",
+        "diferencia_media": 6.363525279472882e-16,
+        "diferencia_maxima": 2.842170943040401e-14,
+        "diferencia_mediana": 0.0,
+        "n_dias_comparados": 3755
+      },
+      {
+        "variable": "Steps",
+        "diferencia_media": 0.0,
+        "diferencia_maxima": 0.0,
+        "diferencia_mediana": 0.0,
+        "n_dias_comparados": 3755
+      }
+    ]
+  }
+}

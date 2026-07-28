@@ -1,0 +1,38 @@
+{
+  "activity": {
+    "rows": 1674,
+    "columns": 8,
+    "cow_count": 62,
+    "start": "2025-12-01 00:00:00+00:00",
+    "end": "2026-01-01 00:00:00+00:00",
+    "missing_values": 0
+  },
+  "events": {
+    "rows": 290,
+    "columns": 4,
+    "cow_count": 88,
+    "start": "2021-05-13 00:00:00",
+    "end": "2024-09-22 00:00:00",
+    "event_counts": {
+      "ANOMALY": 188,
+      "BIRTH": 95,
+      "HEAT": 7
+    }
+  },
+  "overlap": {
+    "common_cows": 47,
+    "sample_common_cows": [
+      "ES000811746937",
+      "ES000813308428",
+      "ES000814089435",
+      "ES000815468623",
+      "ES010814027210",
+      "ES020810524951",
+      "ES020811311330",
+      "ES020812427128",
+      "ES020815468614",
+      "ES021009919114"
+    ],
+    "temporal_overlap": false
+  }
+}

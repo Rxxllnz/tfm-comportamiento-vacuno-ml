@@ -1,0 +1,120 @@
+[
+  {
+    "rama": "rama_a_horario_intensivo",
+    "absolutas": {
+      "mejor_algoritmo": "gmm",
+      "mejor_k": 2,
+      "silhouette": 0.3095995186429081,
+      "davies_bouldin": 2.3835542914013415,
+      "calinski_harabasz": 705.7240549610298,
+      "pureza_media_por_vaca": 0.8902169076662485,
+      "contingencia_dataset": {
+        "celso_horario": {
+          "0": 850,
+          "1": 3710
+        },
+        "ruibal_horario": {
+          "0": 235,
+          "1": 2607
+        }
+      },
+      "contingencia_system": {
+        "intensivo": {
+          "0": 1085,
+          "1": 6317
+        }
+      }
+    },
+    "ratios": {
+      "mejor_algoritmo": "gmm",
+      "mejor_k": 2,
+      "silhouette": 0.2970211925553435,
+      "davies_bouldin": 1.887832294858101,
+      "calinski_harabasz": 1257.9720599797383,
+      "pureza_media_por_vaca": 0.8762662672642445,
+      "contingencia_dataset": {
+        "celso_horario": {
+          "0": 1037,
+          "1": 3523
+        },
+        "ruibal_horario": {
+          "0": 303,
+          "1": 2539
+        }
+      },
+      "contingencia_system": {
+        "intensivo": {
+          "0": 1340,
+          "1": 6062
+        }
+      }
+    }
+  },
+  {
+    "rama": "rama_b_diario_sistemas",
+    "absolutas": {
+      "mejor_algoritmo": "agglomerative",
+      "mejor_k": 2,
+      "silhouette": 0.4385872238961958,
+      "davies_bouldin": 1.1799911107060046,
+      "calinski_harabasz": 879.0602459915273,
+      "pureza_media_por_vaca": 0.9703703703703704,
+      "contingencia_dataset": {
+        "celso_diario": {
+          "0": 562,
+          "1": 0
+        },
+        "ruibal_diario": {
+          "0": 2841,
+          "1": 1
+        },
+        "valdillera_diario_equivalente": {
+          "0": 32,
+          "1": 278
+        }
+      },
+      "contingencia_system": {
+        "extensivo": {
+          "0": 32,
+          "1": 278
+        },
+        "intensivo": {
+          "0": 3403,
+          "1": 1
+        }
+      }
+    },
+    "ratios": {
+      "mejor_algoritmo": "agglomerative",
+      "mejor_k": 2,
+      "silhouette": 0.5404562082745726,
+      "davies_bouldin": 0.7363649086320969,
+      "calinski_harabasz": 1178.7674221172297,
+      "pureza_media_por_vaca": 0.8982456140350877,
+      "contingencia_dataset": {
+        "celso_diario": {
+          "0": 562,
+          "1": 0
+        },
+        "ruibal_diario": {
+          "0": 2842,
+          "1": 0
+        },
+        "valdillera_diario_equivalente": {
+          "0": 127,
+          "1": 183
+        }
+      },
+      "contingencia_system": {
+        "extensivo": {
+          "0": 127,
+          "1": 183
+        },
+        "intensivo": {
+          "0": 3404,
+          "1": 0
+        }
+      }
+    }
+  }
+]

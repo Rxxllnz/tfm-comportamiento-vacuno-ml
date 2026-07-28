@@ -11,6 +11,8 @@
 /datos_procesados/
 /input/
 /inputs/
+/Procesados/
+/documentos/
 
 # Permitir documentación o estructura vacía dentro de datos
 !datos/README.md
@@ -20,11 +22,25 @@
 
 
 # ============================================================
-# RESULTADOS GENERADOS
-# Se regeneran ejecutando el pipeline
+# RESULTADOS
+# Se conservan los informes Markdown, figuras y resúmenes
+# agregados. Se excluyen resultados a nivel de animal.
 # ============================================================
 
-/resultados/
+# Asignaciones y resúmenes individuales por vaca
+resultados/**/*_por_vaca.csv
+
+# Proyecciones fila a fila: contienen cow_id y window_start
+resultados/**/*_proyeccion.csv
+
+# Eventos individualizados de Valdillera
+resultados/valdillera/resumen_eventos_por_vaca.csv
+
+# Archivos parciales utilizados durante la ejecución
+resultados/**/_partial_*.json
+
+# Resultados exploratorios antiguos
+resultados/legacy/
 
 # Las figuras finales del TFM se guardan aparte y sí se suben:
 # Figuras/Resultados/

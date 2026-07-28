@@ -1,0 +1,120 @@
+[
+  {
+    "rama": "rama_a_horario_intensivo",
+    "titulo": "Rama A: horario intensivo (Celso horario + Ruibal horario)",
+    "n_filas": 7402,
+    "n_systems": 1,
+    "system_unico": "intensivo",
+    "absolutas": {
+      "n_features": 54,
+      "explained_variance_ratio": [
+        0.19497581737560118,
+        0.18693843033181717
+      ],
+      "explained_variance_cumulative": 0.38191424770741833,
+      "top5_loadings_pc1": {
+        "steps_mean": 0.25013969369467665,
+        "ruminate_mean": -0.24773220361655,
+        "steps_p90": 0.24592203013382813,
+        "ruminate_median": -0.24201863934307166,
+        "walk_mean": 0.2360293513777923
+      },
+      "top5_loadings_pc2": {
+        "eat_mean": 0.27653224930322295,
+        "eat_p90": 0.2558668194427609,
+        "eat_median": 0.25354301531572876,
+        "eat_std": 0.22693665495279802,
+        "eat_iqr": 0.2260842410405891
+      },
+      "eta_cuadrado_system_PC1": 0.0,
+      "eta_cuadrado_system_PC2": 0.0,
+      "eta_cuadrado_dataset_PC1": 0.006900271343681561,
+      "eta_cuadrado_dataset_PC2": 0.031980416187783335
+    },
+    "ratios": {
+      "n_features": 5,
+      "explained_variance_ratio": [
+        0.38626002900711476,
+        0.30320649363347446
+      ],
+      "explained_variance_cumulative": 0.6894665226405892,
+      "top5_loadings_pc1": {
+        "ratio_rest": 0.6439424281465643,
+        "ratio_ruminate": -0.5722745707123702,
+        "ratio_eat": -0.4647262099408802,
+        "ratio_graze": 0.18644265089838932,
+        "ratio_walk": 0.08431282624041143
+      },
+      "top5_loadings_pc2": {
+        "ratio_graze": 0.6510961849347671,
+        "ratio_eat": -0.553418059372097,
+        "ratio_ruminate": 0.36252009243019934,
+        "ratio_walk": -0.2945789604702593,
+        "ratio_rest": -0.2271665207658787
+      },
+      "eta_cuadrado_system_PC1": 0.0,
+      "eta_cuadrado_system_PC2": 0.0,
+      "eta_cuadrado_dataset_PC1": 0.029002059042924303,
+      "eta_cuadrado_dataset_PC2": 0.04478584009016403
+    }
+  },
+  {
+    "rama": "rama_b_diario_sistemas",
+    "titulo": "Rama B: diario intensivo vs extensivo (Celso diario + Ruibal diario + Valdillera x24)",
+    "n_filas": 3714,
+    "n_systems": 2,
+    "system_unico": null,
+    "absolutas": {
+      "n_features": 54,
+      "explained_variance_ratio": [
+        0.3190624899338626,
+        0.1784438099800066
+      ],
+      "explained_variance_cumulative": 0.4975062999138692,
+      "top5_loadings_pc1": {
+        "walk_mean": 0.20658645133694734,
+        "walk_p90": 0.20499077474125843,
+        "walk_median": 0.1986015565719691,
+        "walk_p10": 0.19291467114469943,
+        "steps_mean": 0.18886653104759946
+      },
+      "top5_loadings_pc2": {
+        "eat_max": 0.28343404885060597,
+        "eat_p90": 0.28131164158782906,
+        "eat_mean": 0.25171126649588815,
+        "eat_median": 0.229922107463259,
+        "eat_p10": 0.21112022911258532
+      },
+      "eta_cuadrado_system_PC1": 0.5493782371375281,
+      "eta_cuadrado_system_PC2": 0.019038267833326294,
+      "eta_cuadrado_dataset_PC1": 0.5625340094445508,
+      "eta_cuadrado_dataset_PC2": 0.06670781112863428
+    },
+    "ratios": {
+      "n_features": 5,
+      "explained_variance_ratio": [
+        0.4397783428818686,
+        0.3034218539598545
+      ],
+      "explained_variance_cumulative": 0.7432001968417231,
+      "top5_loadings_pc1": {
+        "ratio_graze": 0.5801032296405108,
+        "ratio_eat": -0.5375680649231263,
+        "ratio_walk": 0.44731755507025395,
+        "ratio_ruminate": -0.3803072843578283,
+        "ratio_rest": 0.1725520006427005
+      },
+      "top5_loadings_pc2": {
+        "ratio_rest": 0.746648789460484,
+        "ratio_ruminate": -0.5266370812811192,
+        "ratio_graze": -0.3096712619638995,
+        "ratio_walk": -0.2547703435569586,
+        "ratio_eat": 0.06606626502575691
+      },
+      "eta_cuadrado_system_PC1": 0.4826265510559349,
+      "eta_cuadrado_system_PC2": 0.06810242632382854,
+      "eta_cuadrado_dataset_PC1": 0.5235201003342546,
+      "eta_cuadrado_dataset_PC2": 0.10622503888031148
+    }
+  }
+]
