@@ -1,3 +1,37 @@
+# ============================================================
+# DATOS DEL PROYECTO
+# No publicar datos originales o procesados sin autorización
+# ============================================================
+
+/datos/
+/Datos/
+/data/
+/datasets/
+/datos_originales/
+/datos_procesados/
+/input/
+/inputs/
+
+# Permitir documentación o estructura vacía dentro de datos
+!datos/README.md
+!datos/.gitkeep
+!data/README.md
+!data/.gitkeep
+
+
+# ============================================================
+# RESULTADOS GENERADOS
+# Se regeneran ejecutando el pipeline
+# ============================================================
+
+/resultados/
+
+# Las figuras finales del TFM se guardan aparte y sí se suben:
+# Figuras/Resultados/
+
+
+
+
 # Entornos virtuales
 .venv/
 venv/
